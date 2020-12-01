@@ -1,0 +1,186 @@
+body {
+    font-family: Smythe;
+    background-color: rgb(0, 0, 0, 1);
+    text-align: center;
+    background-image: url(images/interBkg.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    /* overflow: hidden; */
+    font-size: 36px;
+    /* margin: 0; */
+    /* padding: 0; */
+    font-weight: bolder;
+}
+
+.mini {
+    background-image: url(images/snake-vector/2.gif);
+    background-color: rgb(255, 255, 255, .3);
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+    background-size: 50% !important;
+    width: 30%;
+    margin: 10% auto; 
+    padding: 13% 0 5% 0;
+    height: 100%;
+    
+}
+
+
+p:hover {
+    cursor: pointer;
+
+}
+
+h1 {
+    padding-top: 60px;
+}
+
+
+
+/*neon Button*/
+
+
+
+
+.a-n2,.a-n1{ margin-left: 20px;
+    text-decoration: none; position: relative;  padding: 15px 30px; overflow: hidden; transition: 0.2s all;  color:black; text-transform: uppercase; letter-spacing: 4px;
+}
+.a-n1:hover{
+    background:#F4D03F; color: green;
+    box-shadow: 0px 0px 10px #F4D03F, 0px 0px 40px#F4D03F, 0px 0px 80px #F4D03F; transition-delay: 1s;
+}    
+.a-n2 span,.a-n1 span{
+    position: absolute;
+    display: block;
+}
+.a-n1 span:nth-child(1){
+ top:0px;
+ left:-40%;
+ width: 100%;
+ height: 2px; 
+ background: linear-gradient(90deg,transparent,#F4D03F )
+}
+ 
+.a-n1:hover span:nth-child(1){
+
+    left:1%; 
+    transition: 0.5s; 
+}
+
+
+.a-n1 span:nth-child(3){
+ bottom:0px;
+ right:-40%;
+ width: 100%;
+ height: 2px; 
+ background: linear-gradient(270deg,transparent,#F4D03F )
+}
+ 
+.a-n1:hover span:nth-child(3){
+
+    right:1%; 
+    transition: 0.5s; 
+    transition-delay: 0.5s;
+}
+
+
+
+.a-n1 span:nth-child(2){
+ top:-40%;
+ right:0;
+ width:  2px;
+ height: 100%; 
+ background: linear-gradient(180deg,transparent,#F4D03F )
+}
+
+
+.a-n1:hover span:nth-child(2){
+    top:5%; 
+    transition: 0.5s; transition-delay: 0.25s;
+}
+
+.a-n1 span:nth-child(4){
+ bottom:-40%;
+ left:0;
+ width:  2px;
+ height: 100%; 
+ background: linear-gradient(360deg,transparent,#F4D03F )
+}
+
+
+.a-n1:hover span:nth-child(4){
+    bottom:5%; 
+    transition: 0.5s;  transition-delay: 0.75s;
+}
+
+
+
+/* Quit Button */
+
+.a-n2:hover{
+    background:#F4D03F; color: green;
+    box-shadow: 0px 0px 10px #F4D03F, 0px 0px 40px#F4D03F, 0px 0px 80px #F4D03F; transition-delay: 1s;
+}
+
+
+.a-n2 span:nth-child(1){
+    top:0px;
+    left:-40%;
+    width: 100%;
+    height: 2px; 
+    background: linear-gradient(90deg,transparent,#F4D03F )
+   
+}
+ 
+.a-n2:hover span:nth-child(1){
+
+    left:1%; 
+    transition: 0.3s; 
+}
+
+
+.a-n2 span:nth-child(3){
+    bottom:0px;
+    right:-40%;
+    width: 100%;
+    height: 2px; 
+    background: linear-gradient(270deg,transparent,#F4D03F )
+   
+}
+ 
+.a-n2:hover span:nth-child(3){
+    right:1%; 
+    transition: 0.5s; 
+    transition-delay: 0.5s;
+}
+
+.a-n2 span:nth-child(2){
+    top:-40%;
+    right:0;
+    width:  2px;
+    height: 100%; 
+    background: linear-gradient(180deg,transparent,#F4D03F )
+   
+}
+ 
+.a-n2:hover span:nth-child(2){
+    top:5%; 
+    transition: 0.5s; transition-delay: 0.25s;
+}
+
+
+.a-n2 span:nth-child(4){
+    bottom:-40%;
+    left:0;
+    width:  2px;
+    height: 100%; 
+    background: linear-gradient(360deg,transparent,#F4D03F )
+}
+
+ 
+.a-n2:hover span:nth-child(4){
+    bottom:5%; 
+    transition: 0.5s;  transition-delay: 0.75s;
+}
+
